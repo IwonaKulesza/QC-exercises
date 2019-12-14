@@ -1,0 +1,80 @@
+#1
+Napisz program, który przyjmie od użytkownika ciąg znaków i wyświetli następujący wynik:
+
+Liczba znakow:
+Pierwsze 3 znaki:
+Ostatnie 3 znaki:
+
+#2
+Program przyjmuje ciąg znaków i wyświetla wynik wielkimi literami.
+
+#3
+Program przyjmuje liczbę zmiennoprzecinkową, wylicza jej kwadrat i wyświetla wynik zaokrąglony do liczby całkowitej.
+
+#4
+Wygeneruj pseudolosową liczbę całkowitą z przedziału <-10; 10> oraz zmiennoprzecinkową z przedziału (0; 1>. Wyświetl następujący wynik:
+
+a =
+b =
+a + b =
+a - b =
+a * b =
+a / b =
+pierwiastek(a) =
+pierwiastek(b) =
+
+Do wyliczenia pierwiastka skorzystaj z funkcji Math.sqrt()
+
+#1
+Napisz program, w którym użytkownik wprowadzi hasło, a następnie, jeśli hasło składa się z co najmniej 7 znaków i znaku specjalnego, zostanie wypisane od tyłu.
+
+#2
+Napisz program, który sprawdzi, czy wprowadzony tekst jest palindromem. Spacje na początku i na końcu tekstu powinny być zignorwane.
+
+#3
+Napisz program dla praliki, który wyświetli poniższe menu:
+1. pranie wstepne
+2. pranie
+3. plukanie
+4. wirowanie
+5. suszenie
+
+a następnie, po wprowadzeniu przez użytkownika odpowiedniej liczby - wypisze wybrany program. Jeśli użytkownik wprowadzi złą liczbę - program poinformuje go o tym i poprosi o ponowne wprowadzenie.
+
+#4
+Napisz program, który pobierze od użytkownika 3 zmienne - długości boków trójkąta i wypisze na ekranie jego obwód lub błąd, jeśli z podanych długości nie da się zbudować trójkąta (hint: suma dwóch dowolnych krawędzi musi być większa niż trzecia krawędź).
+
+#5
+Napisz program, który narysuje polowke choinki z tyloma rzedami, ile wprowadzi uzytkownik.
+
+Przykład: *użytkownik wprowadził liczbę 8*
+Wynik:
+*
+**
+***
+****
+*****
+******
+*******
+********
+
+#6
+Przerób zadanie #5 tak, aby można było rysować choinkę wielokrotnie bez ponownego uruchamiania programu oraz po wprowadzeniu liczby ujemnej, choinka rysowała się do góry nogami.
+
+Przykład: *użytkownik wprowadził liczbę -4*
+Wynik:
+****
+***
+**
+*
+
+#7
+Napisz kalkulator, który wyświetli menu:
+
+1. dodawanie
+2. odejmowanie
+3. mnozenie
+4. dzielenie
+5. potegowanie
+
+Po wyborze liczby poprosi o dwie liczby i zwroci wynik. Upewnij sie, ze uzyles odpowiedniego typu danych.
