@@ -42,12 +42,24 @@ public class HomeworkAd2to5 {
 //    Stwórz program, który użyje brute force'a w celu odgadnięcia hasła do formularza http://qualitycourses.pl/login (login: testy123). Podejrzałeś przez ramię jak kolega wpisuje hasło, natomiast po wprowadzeniu pierszych czterech znaków, kolega się pochylił zasłaniając klawiaturę. Wiesz natomiast, że pierwsze znaki to "test". Wypisz na ekran informację ile czasu zajęło "złamanie" hasła.
     public void ad4(){
         int counter = 0;
-        String[]LettersAndNumbers = new String[]{"a","b","c","d","e","f","g","h",}
+        final String ALPHA_UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        final String ALPHA_LOWER = "abcdefghijklmnopqrstuvwxyz";
+        final String ALPHA_NUMERIC = "0123456789";
+        final String ALPHA_SPECIAL = " !\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~";
+        char[]charset = (ALPHA_LOWER+ALPHA_UPPER+ALPHA_NUMERIC+ALPHA_SPECIAL).toCharArray();
+        String pass = "test";
+
+
         while (true){
-            counter ++;
+           String password = pass + charset[counter];
+            System.out.println(password);
+            counter++;
 
         }
+
+
     }
+
 
 
     public void ad5() {
