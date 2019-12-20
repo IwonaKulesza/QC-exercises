@@ -1,0 +1,77 @@
+Kontakt - QualityCourses kontakt@qualitycourses.pl via gmail.com
+
+Sun, 27 Oct, 15:14
+
+Zad.1.
+Stwórz klasę Dog zawierającą atrybuty rasa, imie, wiek, waga, agresja, zwinnosc, punktyZycia i plec, stwórz dwa konstruktory, które obsłużą dwie sytuacje - znamy/nie znamy płci.
+
+Stwórz dwie metody:
+1) atak - przyjmująca w parametrach agresję, zwinność, punktyZycia, wage i wiek atakującego, zwracajaca int
+2) unik - przyjmujaca w parametrach wiek, zwinność, punktyZycia i wage unikającego, zwracająca int
+
+atak = (agresja + zwinnosc + punktyZycia + waga) / wiek //jesli suka, to atak mniejszy o 3
+unik = (zwinnosc + punktyZycia) - (wiek + waga) //suka ma unik wiekszy o 4; jeśli wynik > atak(), unik zwraca true i pies nie otrzymuje ciosu, w przeciwnym razie odejmujemy psu wynik ataku od punktów życia
+
+Stwórz dwa psy i w metodzie main zrób ustawkę. Niech los zdecyduje który pies atakuje pierwszy. Po każdym ataku drugi pies próbuje zrobić unik. Jeśli mu się nie uda, otrzymuje cios. Wtedy sprawdzamy, czy żyje. Jeśli tak, robi kontratak. Wyświetlamy na ekranie każdą akcję.
+
+Atrybuty (int):
+wiek - od 1 do 5
+waga - od 1 do 60
+agresja - od 0 do 10
+zwinnosc - od 0 do 10
+punktyZycia - od 1 do 100
+
+Przykładowy wynik:
+Burek (wiek: 2, waga: 12, agresja: 3, zwinnosc: 7, punktyZycia: 90, pies)
+Azor (wiek: 4, waga: 32, agresja: 4, zwinnosc: 6, punktyZycia: 70, pies)
+
+Atakuje Burek.
+Moc ataku wynosi 54.
+Moc uniku wynosi 40.
+Azor otrzymal cios, zostalo mu 16 punktow zycia.
+Atakuje Azor.
+Moc ataku wynosi 14.
+Moc uniku wynosi 83.
+Burek uniknal ciosu.
+Atakuje Burek.
+.
+.
+.
+Azor otrzymal smiertelny cios i zdechl.
+
+W zadaniu użyj pętli while, która będzie wykonywać się aż do śmierci jednego z psów. Zapytaj użytkownika na początku gry czy chce wygenerować psy losowe, czy wprowadzić ich atrybuty "z palca". Upewnij się, że gra się nie zapętli, tj. każdy żyjący pies po 10. ataku odpuszcza i wraca do budy.
+
+Zad.2.
+Stwórz program, który będzie dodawał do listy wprowadzone w konsoli imiona, a po wprowadzeniu tekstu "koniec" wypisze wszystkie imiona alfabetycznie.
+
+Zad.3.
+Stwórz program, który otworzy stronę www.onet.pl, znajdzie wszystkie wyrazy zaczynające się na literę "j" (case insensitive!) i wypisze je na ekranie. Skorzystaj z takiej kolekcji, która zagwarantuje unikalność elementów.
+
+Zad.4.
+Stwórz program, który użyje brute force'a w celu odgadnięcia hasła do formularza http://qualitycourses.pl/login (login: testy123). Podejrzałeś przez ramię jak kolega wpisuje hasło, natomiast po wprowadzeniu pierszych czterech znaków, kolega się pochylił zasłaniając klawiaturę. Wiesz natomiast, że pierwsze znaki to "test". Wypisz na ekran informację ile czasu zajęło "złamanie" hasła.
+
+Zad.5.
+Stórz mapę {String, Integer} i zainicjuj klucze nazwami 10 popularnych miast polskich. Następnie napisz program, który wyszuka każde miasto w google i zapisze obok miasta wartość równią liczbie trafień w Google.
+Następnie wyświetl na konsoli zestawienie:
+NazwaMiasta1 - liczbaTrafień
+NazwaMiasta2 - liczbaTrafień
+.
+.
+NazwaMiasta10 - liczbaTrafień
+
+
+
+
+to kontakt
+
+Translate message
+Turn off for: Polish
+
+Jeszcze takie małe zadanko:
+
+
+Zad.6.
+
+Stwórz program, który wejdzie na stronę http://qualitycourses.pl/boxes.html, załaduje do List<WebElement> wszystkie radiobuttony z grupy gender, zaznaczy opcję "Other" i sprawdzi asercjami czy stan wszystkich trzech się zgadza. Następnie sprawdzi, czy po kliknięciu Submit response code to 404.
+
+
