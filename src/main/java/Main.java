@@ -3,6 +3,6 @@ import pazdziernik_26_27.Homework.HomeworkAd2to5;
 
 public class Main {
     public static void main(String[] args) {
-        new HomeworkAd2to5().ad3();
+        new HomeworkAd2to5().ad4();
     }
 }
